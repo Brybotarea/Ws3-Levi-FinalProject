@@ -21,12 +21,12 @@ module.exports = {
           buttons: [
             {
               type: "web_url",
-              url: "https://www.facebook.com/kennethfranciscoaceberos",
+              url: "https://www.facebook.com/profile.php?id=100077747912224",
               title: "Contact Admin 1"
             },
             {
               type: "web_url",
-              url: "https://www.facebook.com/wieginesalpocialechavez",
+              url: "https://www.facebook.com/profile.php?id=61554487530146",
               title: "Contact Admin 2"
             }
          ]
