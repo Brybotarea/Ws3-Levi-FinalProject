@@ -62,7 +62,7 @@ const listenMessage = async (event, pageAccessToken) => {
               quick_replies: [
                 {
                   content_type: "text",
-                  title: "help",
+                  title: "/help",
                   payload: "HELP"
                 }
               ]
