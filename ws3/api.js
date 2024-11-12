@@ -61,8 +61,8 @@ module.exports = {
   temp,
   prefix,
   admin: [
-"100077747912224",
-"61554487530146"
+"7978455342254193",
+"8608923192478442"
 ],
   async sendMessage(senderId, message, pageAccessToken) {
     return await new Promise(async (resolve, reject) => {
@@ -107,7 +107,7 @@ module.exports = {
   introduction: `Hello, I am LeviAI and I am your assistant.
 Type ${prefix}help for available commands.
 
-Note: WieAI is highly recommended to use Messenger because some features won't work and limited.
+Note: LeviAI is highly recommended to use Messenger because some features won't work and limited.
 🤖 Created by Bry >Credits To Neth Aceberos For This Src<`,
   api_josh: "https://joshweb.click",
   echavie: "https://echavie3.nethprojects.workers.dev"
