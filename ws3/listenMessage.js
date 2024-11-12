@@ -44,11 +44,11 @@ const listenMessage = async (event, pageAccessToken) => {
     admin = api.admin.some(id => id === senderID);
     switch (message.toLowerCase().trim()) {
     case "prefix": {
-      return send(`Hello! My prefix is ${prefix}`);
+      return send(`Hello! I Don't Have a Prefix Master`);
     }
     default: {
       if (!message) return;
-      if (["hi", "wie", "wieai", "wiegine", "get started"]
+      if (["hi", "wie", "wieai", "wiegine", "get started", "Levi", "levi"]
         .some(text => text === message.toLowerCase().trim())) {
          return getStarted(send);
       }
@@ -62,7 +62,7 @@ const listenMessage = async (event, pageAccessToken) => {
               quick_replies: [
                 {
                   content_type: "text",
-                  title: "/help",
+                  title: "help",
                   payload: "HELP"
                 }
               ]
