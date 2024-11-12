@@ -109,6 +109,6 @@ Type ${prefix}help for available commands.
 
 Note: WieAI is highly recommended to use Messenger because some features won't work and limited.
 🤖 Created by Bry >Credits To Neth Aceberos For This Src<`,
-  api_josh: "https://joshweb.click/api/gpt-4o?q=hi&uid=",
+  api_josh: "https://joshweb.click",
   echavie: "https://echavie3.nethprojects.workers.dev"
 }
