@@ -40,7 +40,7 @@ async function Load() {
           console.log(`Success: code ${exitCode}`);
         } else if (exitCode === 1) {
           console.log(`Error: code ${exitCode}`);
-          console.log(`Restarting WSE PageBot...`);
+          console.log(`Restarting LeviAI PageBot...`);
           Load();
         } else {
           console.log(`Error: code ${exitCode}`);
